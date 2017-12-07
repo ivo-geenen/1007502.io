@@ -1,0 +1,102 @@
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#0C0032;
+	color:white;
+}
+body {
+	margin:0px;
+	padding:0px;
+}
+h2{
+	font-size:35px;
+	text-align: center;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	max-width:100%;
+}
+ul li{
+	margin-bottom:7px;
+	border-radius:20px;
+	position: relative;
+	padding:10px 50px 10px 50px;
+}
+ul :nth-child(even) {
+    background-color: #3500D3;
+}
+ul :nth-child(odd){
+	background-color:#240090;
+}
+
+ul li.checked:before {
+	content: '';
+	position: absolute;
+	border-style:solid;
+	border-width: 0px 3px 3px 0px;
+	top: 10px;
+	left: 16px;
+	transform: rotate(45deg);
+	height: 15px;
+	width: 7px;
+}
+
+ul li:hover{
+	background-color:#190061;
+}
+
+ul li.checked {
+	text-decoration: line-through;
+	background-color:#282828;
+}
+.close{
+	
+	border-radius:20px;
+	position: absolute;
+	top:6px;
+	right:6px;
+	padding: 4px 10px 4px 10px;
+}
+.close:hover{
+	background-color:red;
+	
+}
+.add{
+	height:28px;
+	min-width:50px;
+	width:5%;
+	color:black;
+	background-color:white;
+	border-radius:20px;
+}
+.add:hover{
+	background-color:#E0E0E0;
+}
+.page-header{
+	
+	background-color:#0C0032;
+	left:400px;
+	text-align: center;
+	color:white;
+	padding: 20px;
+}
+#input{
+	background-color:white;
+	color:black;
+	min-width:100px;
+	width:15%;
+	height:30px;
+	border-style:solid;
+	border-radius: 20px;	
+}
+#dInput{
+		background-color:white;
+	color:black;
+	min-width:125px;
+	width:15%;
+	height:30px;
+	border-style:solid;
+	border-radius: 20px;	
+}
+
+
